@@ -6,7 +6,7 @@
     font-family: "Montserrat", sans-serif;
     list-style: none;
     text-decoration: none;
-    /*#060a39*/
+    /*#060a39*/ /*rgba(6, 18, 30, 1)*/
 }
 
 body {
@@ -15,9 +15,10 @@ body {
 }
 
 header {
-    border-bottom: 2px solid #060a39;
+    border-bottom: 1px solid rgba(6, 18, 30, 1);
     position: fixed;
-    height: 110px;
+    top: 0;
+    height: 100px;
     width: 100%;
     background-color: white;
     display: flex;
@@ -41,16 +42,18 @@ header {
 }
 
 a{
+    margin-right: 10px;
+    font-size: 18px;
     font-weight: 600;
-    color: #060a39;
+    color: rgba(6, 18, 30, 1);
 }
 
 a:hover {
-    opacity: 0.8;
+    opacity: 0.7;
     transition: 0.3s;
 }
 a:active {
-    opacity: 0.6;
+    opacity: 0.5;
     transition: 0.3s;
 }
 
@@ -70,16 +73,17 @@ a:active {
 
 .rede-list p{
     font-size: 20px;
+    cursor: context-menu;
 }
 
 .btn-one {
     height: 50px;
     width: 180px;
     border-radius: 3px;
-    border: 2px solid #060a39;
+    border: 2px solid rgba(6, 18, 30, 1);
     margin-top: 7.5px;
     background-color: #fff;
-    color: #060a39;
+    color: rgba(6, 18, 30, 1);
     font-weight: 700;
     font-size: 13px;
     cursor: pointer;
@@ -92,9 +96,111 @@ a:active {
 .btn-one:active {
     opacity: 0.9;
     transition: 0.3s;
-    background-color: #060a39;
+    background-color: rgba(6, 18, 30, 1);
     color: #fff;
 }
 
+.sct-main {
+    height: 950px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background-color: rgba(6, 18, 30, 1);
+}
+
+.img-main {
+    border: 1.5px solid #fff;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    box-shadow: 5px 5px 10px 8px rgb(4, 12, 20);
+    border-radius: 2px;
+}
+
+.img-main-barber {
+    border: 1.5px solid #fff;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    box-shadow: 5px 5px 10px 8px rgb(4, 12, 20);
+    border-radius: 2px;
+}
+
+.title-main {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.paragraph-main {
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.agender-btn {
+    height: 60px;
+    width: 270px;
+    background-color: rgba(217, 65, 64, 1);
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    box-shadow: 8px 8px 5px rgb(4, 12, 20);
+    cursor: pointer;
+}
+
+.agender-btn:hover {
+    box-shadow: 12px 12px 9px rgb(4, 12, 20);
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+.agender-btn:active {
+    box-shadow: 12px 12px 9px rgb(4, 12, 20);
+    opacity: 0.6;
+    transition: 0.2s;
+}
+
+.sct-two {
+    height: 750px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.aboutCuts {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 600px;
+    gap: 25px;
+}
+
+.about {
+    font-size: 50px;
+}
+.pLorem {
+    font-weight: 500;
+    font-size: 30px;
+}
+.pAgender {
+   font-weight: 500;
+   font-size: 20px;
+}
+
+
+#imgPrincipal {
+    width: 400px;
+    margin-top: 30px;
+    border-radius: 1.5px;
+    border: 2px solid rgb(4, 12, 20);
+    box-shadow: 4px 4px 15px 5px rgb(148, 147, 147)
+}
 
 
