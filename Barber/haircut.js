@@ -9,3 +9,4 @@ const haircut = [
     { name: "Barba Completa", price: 30 },
     { name: "Cabelo e barba", price: 70 },
 ]
+
