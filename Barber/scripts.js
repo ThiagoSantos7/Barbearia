@@ -24,6 +24,8 @@ const hairCort = () => {
 
 
     list.innerHTML = myLi
+
+    
 }
 
 buttonService.addEventListener("click", hairCort)

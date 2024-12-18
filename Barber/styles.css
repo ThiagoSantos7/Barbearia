@@ -198,8 +198,7 @@ a:active {
 #imgPrincipal {
     width: 400px;
     margin-top: 30px;
-    border-radius: 1.5px;
-    border: 2px solid rgb(4, 12, 20);
+    border-radius: 5px;
     box-shadow: 4px 4px 15px 5px rgb(148, 147, 147);
 }
 
