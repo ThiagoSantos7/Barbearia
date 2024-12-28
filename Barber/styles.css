@@ -247,7 +247,34 @@ a:active {
     font-weight: 600;
 }
 
+.buttonServicesTwo {
+    display: none;
+    margin-top: 30px;
+    width: 250px;
+    height: 55px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    background-color: rgb(4, 12, 20);
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.buttonServicesTwo:hover {
+    opacity: 0.9;
+    transition: 0.3s;
+}
+.buttonServicesTwo:active {
+    color: rgb(4, 12, 20);
+    background-color: #fff;
+    border: 1px solid rgb(4, 12, 20);
+    transition: 0.2s;
+    font-weight: 600;
+}
+
 .listCortes{
+    display: none;
     margin-top: 80px;
     display: grid;
     grid-template-columns: 200px 200px 200px;
