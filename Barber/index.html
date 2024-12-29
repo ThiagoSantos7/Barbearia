@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="https://img.icons8.com/?size=100&id=B1SqwgQp5uLR&format=png&color=06121e"
+        type="image/x-icon">
     <link
         href="https://fonts.googleapis.com/css2?family=Chewy&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
@@ -15,6 +17,9 @@
 
 <body>
     <main>
+
+        <div class="mascara-formulario"></div>
+
         <section id="main" class="box-main">
             <header>
 
@@ -57,9 +62,12 @@
 
             <h1 class="title-main">MUDANDO VISUAIS E TRAZENDO AUTO ESTIMA</h1>
             <p class="paragraph-main">Alphaville Comercial | Residencial - Domiciliar</p>
-            <a href="https://api.whatsapp.com/send?phone=5511985214062&text=Agende%20seu%20horario!"><button
-                    class="agender-btn">Agendar horário</button></a>
 
+            <div class="buttons-agd">
+                <a href="https://api.whatsapp.com/send?phone=5511985214062&text=Agende%20seu%20horario!"><button
+                        class="agender-btn">Agendar horário</button></a>
+                <button class="domicilio">Agende a Domicílio</button>
+            </div>
         </section>
         <section id="sct-two" class="sct-two">
             <section class="imgHair">
@@ -85,7 +93,6 @@
                 eligendi
                 reiciendis!</p>
             <button class="buttonServices"> Exibir </button>
-            <button class="buttonServicesTwo"> Não exibir </button>
             <section class="haircut">
                 <ul class="listCortes">
                     <!--<li class="liCut">
@@ -115,14 +122,23 @@
             </div>
 
             <div class="imgWhats">
-                <a href=""><img src="https://img.icons8.com/?size=100&id=16713&format=png&color=000000"
-                        alt="WhatsApp"></a>
+                <a href="https://api.whatsapp.com/send?phone=5511985214062&text=Agende%20seu%20horario!"><img
+                        src="https://img.icons8.com/?size=100&id=16713&format=png&color=000000" alt="WhatsApp"></a>
             </div>
 
             <p class="DireitosAutorais">Copyright© 2024 | Wedson BarberShop - Todos os direitos reservados.</p>
 
 
         </section>
+
+        <form class="formulario" action="https://formcarry.com/s/sQ3tg7F1-sI" method="POST" enctype="multipart/form-data">
+            <input class="input-form" type="text" placeholder="Seu nome" name="nome: ">
+            <input class="input-form" type="tel" placeholder="Telefone" name="Telefone: ">
+            <input class="input-form" type="date" name="Data: ">
+            <input class="input-form" type="time" name="Horário: ">
+            <textarea placeholder="Descreva o corte" name="Qual corte: "></textarea>
+            <button class="button-submit" type="submit">Enviar</button>
+        </form>
 
     </main>
 
