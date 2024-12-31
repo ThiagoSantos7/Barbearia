@@ -1,5 +1,12 @@
 const haircut = [
-    { src: './assets/corteCabelo.jpg', name: "Corte de Cabelo", price: 45 },
-    { src: './assets/barbaCompleta.jpg', name: "Barba Completa", price: 35 },
-    { src: './assets/cabeloBarba.jpg', name: "Cabelo e barba", price: 70 },
+    { name: "Corte degradê", price: 40 },
+    { name: "Cortes degradê com penteado", price: 50 },
+    { name: "Sombrancelha", price: 15 },
+    { name: "Perfil (Pezinho)", price: 15 },
+    { name: "Relaxamento", price: 40 },
+    { name: "Luzes", price: 60 },
+    { name: "Progressiva", price: 70 },
+    { name: "Barba Completa", price: 30 },
+    { name: "Cabelo e barba", price: 70 },
 ]
+

@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="https://img.icons8.com/?size=100&id=B1SqwgQp5uLR&format=png&color=06121e"
+        type="image/x-icon">
     <link
         href="https://fonts.googleapis.com/css2?family=Chewy&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
@@ -15,76 +17,89 @@
 
 <body>
     <main>
-        <section class="box-main">
+
+        <div class="mascara-formulario"></div>
+
+        <section id="main" class="box-main">
             <header>
 
                 <img class="logo-barber" src="./assets/wedson.log.png" alt="logo">
 
                 <nav class="nav-header">
                     <ul class="ul-information">
-                        <li><a href="">Inicio</a></li>
-                        <li><a href="">Sobre</a></li>
-                        <li><a href="">Serviços</a></li>
-                        <li><a href="">Localizações</a></li>
+                        <li><a href="#main">Inicio</a></li>
+                        <li><a href="#sct-two">Sobre</a></li>
+                        <li><a href="#services">Serviços</a></li>
+                        <li><a href="#location">Localizações</a></li>
                     </ul>
                 </nav>
                 <div class="social-redes">
                     <ul class="rede-list">
-                        <li><p>|</p></li>
-                        <li><a href=""><img class="img-socialMedia" src="https://img.icons8.com/?size=100&id=85154&format=png&color=060a39"
+                        <li>
+                            <p>|</p>
+                        </li>
+                        <li><a href="https://www.instagram.com/barberwedsonsilva/"><img class="img-socialMedia"
+                                    src="https://img.icons8.com/?size=100&id=85154&format=png&color=06121e"
                                     alt="instagram"></a></li>
-                        <li><a href=""><img class="img-socialMedia" src="https://img.icons8.com/?size=100&id=118467&format=png&color=060a39"
+                        <li><a href=""><img class="img-socialMedia"
+                                    src="https://img.icons8.com/?size=100&id=118467&format=png&color=06121e"
                                     alt="facebook"></a></li>
                     </ul>
                 </div>
                 <div class="chamada">
-                    <button class="btn-one">Agendar horário</button>
+                   <button class="domicilio">Agendar a Domicílio</button> <!--btn-one-->
                 </div>
             </header>
         </section>
         <section class="sct-main">
 
-            <img class="img-main" src="" alt="imagem principal de corte de cabelo">
-            <h1>MUDANDO VISUAIS E TRAZENDO AUTO - ESTIMA</h1>
-            <p>Alphaville Comercial / Residencial - Domiciliar</p>
-            <button>Agendar horário</button>
+            <div>
+                <img class="img-main" src="./assets/barbaCompleta.jpg" alt="Barba">
+                <img class="img-main-barber" src="./assets/img-principal.jpg" alt="imagem principal de corte de cabelo">
+                <img class="img-main" src="./assets/cabeloBarba.jpg" alt="Cabelo e barba">
+            </div>
 
+            <h1 class="title-main">MUDANDO VISUAIS E TRAZENDO AUTO ESTIMA</h1>
+            <p class="paragraph-main">Alphaville Comercial | Residencial - Domiciliar</p>
+            <a href="https://api.whatsapp.com/send?phone=5511985214062&text=Agende%20seu%20horario!"><button class="agender-btn">Agendar horário</button></a>
+        </section>
+        <section id="sct-two" class="sct-two">
+            <section class="imgHair">
+                <img id="imgPrincipal" src="./assets/img-principal.jpg" alt="wedson cortando">
+            </section>
+            <section class="aboutCuts">
+                <h1 class="about">SOBRE</h1>
+                <p class="pLorem">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum dolorem animi quia
+                    officia accusantium,
+                    tenetur
+                    iusto consectetur suscipit minus nam dicta quaerat magnam quod at ut! Cumque nostrum sequi aperiam?
+                </p>
+                <p class="pAgender">Alphaville Comercial | Residencial - Domiciliar</p>
+            </section>
         </section>
 
-        <section>
-            <img src="" alt="wedson cortando">
-            <h1>SOBRE</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum dolorem animi quia officia accusantium,
-                tenetur
-                iusto consectetur suscipit minus nam dicta quaerat magnam quod at ut! Cumque nostrum sequi aperiam?</p>
-            <p>Alphaville Comercial / Residencial - Domiciliar</p>
-        </section>
-
-
-        <section>
-            <h1>NA RÉGUA</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam placeat cumque ipsa. Reprehenderit
+        <section id="services" class="services">
+            <h1 class="h1Services">NA RÉGUA</h1>
+            <p class="pServices">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam placeat cumque ipsa.
+                Reprehenderit
                 delectus
                 optio est quas, voluptatibus iusto facilis nostrum tempore sequi? Non, rerum molestiae cumque modi
                 eligendi
                 reiciendis!</p>
-            <section>
-                <img src="./assets/corteCabelo.jpg" alt="corte Cabelo">
-                <button>R$ 00,00</button>
-            </section>
-            <section>
-                <img src="./assets/barbaCompleta.jpg" alt="Barba Completa">
-                <button>R$ 00,00</button>
-            </section>
-            <section>
-                <img src="./assets/cabeloBarba.jpg" alt="Cabelo e Barba">
-                <button>R$ 00,00</button>
+            <button class="buttonServices"> Exibir <img class="abaixo" src="./assets/abaixo.png" alt="abaixo"> </button>
+            <section class="haircut">
+                <ul class="listCortes">
+                    <!--<li class="liCut">
+                        <p class="pMain">Corte Degradê</p>
+                        <button class="buttonPrice">R$40,00</button>
+                    </li> -->
+                </ul>
             </section>
         </section>
 
 
-        <section>
-            <h1>VENHA CONHECER</h1>
+        <section id="location" class="location">
+            <h1 class="titleLocation">VENHA CONHECER</h1>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58539.2850983496!2d-46.71536774948478!3d-23.507121337496052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef93cd3734edf%3A0x70c41d2c8f3538ca!2sBarbearia%20Hermanos%20-%20Freguesia%20do%20%C3%B3!5e0!3m2!1spt-BR!2sbr!4v1732656390067!5m2!1spt-BR!2sbr"
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
@@ -92,18 +107,39 @@
         </section>
 
 
-        <section>
-            <nav>
-                <a href=""><img src="https://img.icons8.com/?size=100&id=85154&format=png&color=060a39" alt="instagram"></a>
-                <a href=""><img src="https://img.icons8.com/?size=100&id=118467&format=png&color=060a39" alt="facebook"></a>
-            </nav>
-            <img src="./assets/wedson.log.png" alt="logo wedsonBarbaer">
-            <a href=""><img class="img-WhatsApp" src="https://img.icons8.com/?size=100&id=16713&format=png&color=000000" alt="WhatsApp"></a>
-            <p>Copyright© 2024 | Wedson BarberShop - Todos os direitos reservados.</p>
+        <section class="sct-final">
+            <div class="link-bottom">
+                <a href="https://www.instagram.com/barberwedsonsilva/"><img class="links-final"
+                        src="https://img.icons8.com/?size=100&id=85154&format=png&color=ffffff" alt="instagram"></a>
+                <a href=""><img class="links-final"
+                        src="https://img.icons8.com/?size=100&id=118467&format=png&color=ffffff" alt="facebook"></a>
+            </div>
+
+            <div class="imgWhats">
+                <a href="https://api.whatsapp.com/send?phone=5511985214062&text=Agende%20seu%20horario!"><img
+                        src="https://img.icons8.com/?size=100&id=16713&format=png&color=000000" alt="WhatsApp"></a>
+            </div>
+
+            <p class="DireitosAutorais">Copyright© 2024 | Wedson BarberShop - Todos os direitos reservados.</p>
+
+
         </section>
+
+        <form class="formulario" action="https://formcarry.com/s/sQ3tg7F1-sI" method="POST"
+            enctype="multipart/form-data">
+            <input class="input-form" type="text" placeholder="Seu nome" name="nome: ">
+            <input class="input-form" type="tel" placeholder="Telefone" name="Telefone: ">
+            <input class="input-form" type="date" name="Data: ">
+            <input class="input-form" type="time" name="Horário: ">
+            <input class="input-form" type="text" placeholder="Endereço" name="Endereço: ">
+            <textarea placeholder="Descreva o corte" name="Qual corte: "></textarea>
+            <button class="button-submit" type="submit">Enviar</button>
+        </form>
+
     </main>
 
 </body>
+
 <script src="./haircut.js"></script>
 <script src="./scripts.js"></script>
 
