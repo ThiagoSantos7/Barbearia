@@ -22,7 +22,8 @@ const hairCort = () => {
             `
                <li class="liCut">
                     <p class="pMain">${formatCurrency(element.name)}</p>
-                     <a href="https://api.whatsapp.com/send?phone=5511985214062&text=Ol%C3%A1,%20gostaria%20de%20agendar%20um%20corte!"><button class="buttonPrice">${formatCurrency(element.price)}</button></a>
+                     <a href="https://api.whatsapp.com/send?phone=5511985214062&text=Ol%C3%A1,%20gostaria%20de%20agendar%20um%20corte!">
+                     <button class="buttonPrice">${formatCurrency(element.price)}</button></a>
                 </li>
                  
             `
