@@ -1,6 +1,6 @@
 const haircut = [
     { name: "Corte degradê", price: 40, src: "https://api.whatsapp.com/send?phone=5511985214062&text=Ol%C3%A1,%20quero%20agendar%20um%20Corte%20com%20degrad%C3%AA%20-%20R$%2040,00" },
-    { name: "Cortes degradê com penteado", price: 50, src: "https://api.whatsapp.com/send?phone=5511985214062&text=Ol%C3%A1,%20quero%20agendar%20um%20Corte%20degrad%C3%AA%20com%20Penteado%20-%20R$%2050,00"},
+    { name: "Cortes degradê penteado", price: 50, src: "https://api.whatsapp.com/send?phone=5511985214062&text=Ol%C3%A1,%20quero%20agendar%20um%20Corte%20degrad%C3%AA%20com%20Penteado%20-%20R$%2050,00"},
     { name: "Sobrancelha", price: 15, src: "https://api.whatsapp.com/send?phone=5511985214062&text=Ol%C3%A1,%20quero%20fazer%20a%20Sobrancelha%20-%20R$%2015,00" },
     { name: "Perfil (Pézinho)", price: 15, src: "https://api.whatsapp.com/send?phone=5511985214062&text=Ol%C3%A1,%20quero%20Perfil%20(P%C3%A9zinho)%20-%20R$%2015,00" },
     { name: "Relaxamento", price: 40, src: "https://api.whatsapp.com/send?phone=5511985214062&text=Ol%C3%A1,%20quero%20fazer%20um%20relaxamento%20-%20R$%2040,00" },
