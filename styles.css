@@ -451,7 +451,7 @@ textarea {
 
     header {
         gap: 20px;
-
+        height: 75px;
     }
 
     .logo-barber {
@@ -680,7 +680,7 @@ textarea {
         position: fixed;
         top: 50px;
         left: 50px;
-        top: 30%;
+        top: 25%;
         left: -320px;
         border: 1px solid rgb(4, 12, 20);
         padding: 30px;
