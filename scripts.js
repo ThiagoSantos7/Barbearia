@@ -8,6 +8,7 @@ const mascara = document.querySelector('.mascara-formulario')
 
 
 function formatCurrency(value) {
+    
     const newValue = value.toLocaleString('pt-br', { style: 'currency', currency: 'BRL', });
 
     return newValue
