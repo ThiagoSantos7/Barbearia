@@ -28,6 +28,92 @@ body {
     transition: visibility 1s ease-in-out;
 }
 
+.mascara-sos {
+    visibility: hidden;
+    /*visibilidade escondida*/
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    transition: visibility 1s ease-in-out;
+}
+
+
+.info {
+    visibility: hidden;
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 285px;
+    right: 36.5%;
+    border: 1px solid rgba(6, 18, 30, 1);
+    padding: 35px;
+    background: white;
+    border-radius: 5px;
+    gap: 30px;
+    color: rgba(6, 18, 30, 1);
+}
+
+.removerImg {
+    width: 40px;
+    position: absolute;
+    right: 0;
+    top: 0; 
+    margin: 20px;
+    cursor: pointer;
+}
+
+.removerImg:hover {
+    opacity: 0.8;
+
+}
+.removerImg:active {
+    transition: 0.5s;
+    opacity: 0.6;
+}
+
+.titleInfo {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 26px;
+}
+
+.pInfo {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600px;
+    margin-bottom: 70px;
+    line-height: 27px;
+}
+
+.btnInfo {
+    width: 250px;
+    height: 60px;
+    border: 1px solid rgba(6, 18, 30, 1);
+    position: absolute;
+    bottom: 0;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 50px;
+    border-radius: 2px;
+    background: rgba(6, 18, 30, 1);
+    color: white;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.btnInfo:hover {
+    opacity: 0.9;
+    transform: translateY(-3px);
+}
+
+.btnInfo:active {
+    opacity: 0.6;
+}
+
 header {
     border-bottom: 1px solid rgba(6, 18, 30, 1);
     position: fixed;
@@ -94,6 +180,13 @@ a:active {
     cursor: context-menu;
 }
 
+.chamada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
 .btn-one {
     height: 50px;
     width: 180px;
@@ -116,6 +209,28 @@ a:active {
     transition: 0.3s;
     background-color: rgba(6, 18, 30, 1);
     color: #fff;
+}
+
+.btn-sos {
+    height: 62px;
+    width: 50px;
+    font-size: 20px;
+    background-color: #fff;
+    color: rgba(6, 18, 30, 1);
+    border-radius: 3px;
+    font-weight: 700;
+    border: 2px solid rgba(6, 18, 30, 1);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-sos:hover {
+    background-color: rgba(6, 18, 30, 1);
+    color: #fff;
+}
+
+.btn-sos:active {
+    opacity: 0.7;
 }
 
 .sct-main {
@@ -452,6 +567,50 @@ textarea {
 
 @media (max-width: 1100px) {
 
+
+    .info {
+        visibility: hidden;
+        width: 350px;
+        height: 350px;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        top: 310px;
+        right: 21%;
+        border: 1px solid rgba(6, 18, 30, 1);
+        padding: 35px;
+        background: white;
+        border-radius: 5px;
+        gap: 50px;
+        color: rgba(6, 18, 30, 1);
+    }
+
+    .removerImg {
+        width: 30px;
+        position: absolute;
+        right: 0;
+        top: 0; 
+        margin: 12px;
+        cursor: pointer;
+        
+    }
+
+
+    .titleInfo {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .pInfo {
+        text-align: center;
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 35px;
+        line-height: 17px;
+    }
+    
+
     header {
         gap: 20px;
         height: 75px;
@@ -472,6 +631,21 @@ textarea {
         height: 45px;
         border: 1.5px solid rgb(4, 12, 20);
     }
+
+    .btn-sos {
+        height: 45px;
+        width: 40px;
+        margin-right: 20px;
+        font-size: 20px;
+        background-color: #fff;
+        color: rgba(6, 18, 30, 1);
+        border-radius: 3px;
+        font-weight: 700;
+        border: 2px solid rgba(6, 18, 30, 1);
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    
 
     .sct-main {
         height: 700px;

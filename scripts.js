@@ -5,6 +5,10 @@ const list = document.querySelector('.listCortes')
 const buttonDomicilio = document.querySelector('.domicilio')
 const formulario = document.querySelector('.formulario')
 const mascara = document.querySelector('.mascara-formulario')
+const ajuda = document.querySelector('.btn-sos')
+const info = document.querySelector('.info')
+const removerInfo = document.querySelector('.removerImg')
+
 
 
 function formatCurrency(value) {
@@ -50,8 +54,25 @@ const esconderform = () => {
 }
 
 
+const visibleSos = () => {
+    
+   info.style.visibility = "visible"
+   mascara.style.visibility = "visible"
+
+}
+
+const hiddenSos = () => {
+    
+    info.style.visibility = "hidden"
+    mascara.style.visibility = "hidden"
+    mascara.style.transition = "0s"
+
+}
 
 
+
+removerInfo.addEventListener("click", hiddenSos)
+ajuda.addEventListener("click", visibleSos)
 mascara.addEventListener("click", esconderform)
 buttonDomicilio.addEventListener("click", aparecerForm)
 buttonService.addEventListener("click", hairCort) 
