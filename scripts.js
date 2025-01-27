@@ -8,7 +8,6 @@ const mascara = document.querySelector('.mascara-formulario')
 const ajuda = document.querySelector('.btn-sos')
 const info = document.querySelector('.info')
 const removerInfo = document.querySelector('.removerImg')
-const mascaraInfo = document.querySelector('.mascara-sos')
 
 
 
@@ -57,15 +56,16 @@ const esconderform = () => {
 
 const visibleSos = () => {
     
-    info.style.visibility = "visible"
-    mascaraInfo.style.visibility = "visible"
+   info.style.visibility = "visible"
+   mascara.style.visibility = "visible"
 
 }
 
 const hiddenSos = () => {
     
     info.style.visibility = "hidden"
-    mascaraInfo.style.visibility = "hidden"
+    mascara.style.visibility = "hidden"
+    mascara.style.transition = "0s"
 
 }
 
